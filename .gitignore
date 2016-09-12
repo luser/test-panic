@@ -1,2 +1,6 @@
 target
 *~
+*.pdb
+*.ilk
+*.obj
+*.exe

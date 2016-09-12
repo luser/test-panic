@@ -3,6 +3,9 @@ name = "test-panic"
 version = "0.1.0"
 authors = ["Ted Mielczarek <ted@mielczarek.org>"]
 
+[lib]
+crate-type = ["staticlib"]
+
 [profile.release]
 debug = true
 debug-assertions = false
