@@ -7,6 +7,9 @@ authors = ["Ted Mielczarek <ted@mielczarek.org>"]
 crate-type = ["staticlib"]
 
 [profile.release]
+opt-level = 2
 debug = true
+rpath = false
+lto = true
 debug-assertions = false
 panic = "abort"
